@@ -1,6 +1,14 @@
+[build-system]
+# Tells the build tool (e.g., setuptools) what files to include
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "networksecurity"
 version = "0.1.0"
+authors = [
+    { name = "Satyam", email = "satyampant420@example.com" }
+]
 requires-python = ">=3.12"
 dependencies = [
     "certifi>=2025.11.12",
@@ -16,3 +24,7 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "uvicorn>=0.38.0",
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"] 
