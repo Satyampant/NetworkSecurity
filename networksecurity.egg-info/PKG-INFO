@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: networksecurity
+Version: 0.1.0
+Author-email: Satyam <satyampant420@example.com>
+Requires-Python: >=3.12
+Requires-Dist: certifi>=2025.11.12
+Requires-Dist: dagshub>=0.6.3
+Requires-Dist: fastapi>=0.121.3
+Requires-Dist: mlflow<3
+Requires-Dist: numpy>=2.3.5
+Requires-Dist: pandas>=2.3.3
+Requires-Dist: pyaml>=25.7.0
+Requires-Dist: pymongo[srv]==3.12
+Requires-Dist: python-dotenv>=1.2.1
+Requires-Dist: python-multipart>=0.0.20
+Requires-Dist: scikit-learn>=1.7.2
+Requires-Dist: uvicorn>=0.38.0
