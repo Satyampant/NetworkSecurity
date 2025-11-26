@@ -13,6 +13,7 @@ requires-python = ">=3.12"
 dependencies = [
     "certifi>=2025.11.12",
     "dagshub>=0.6.3",
+    "dill>=0.4.0",
     "fastapi>=0.121.3",
     "mlflow<3",
     "numpy>=2.3.5",
